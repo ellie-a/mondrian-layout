@@ -2,7 +2,7 @@
   box-sizing:border-box;
   border:1px dashed #000;
 }
-.
+
 .columns {
   min-height: 100px;
 }
@@ -21,6 +21,31 @@
 }
 
 
+
+@media only screen and (min-width: 416px){
+
+  .big {
+    background-color: lightblue;
+    height: 50vh;
+    margin-bottom: 5vh;
+  }
+
+  .small1 {
+    background-color: pink;
+    height: 50vh;
+    float: left;
+    width: 45vw;
+  }
+
+  .small2 {
+    background-color: red;
+    height: 50vh;
+    float: right;
+    width: 45vw;
+
+  }
+
+}
 @media only screen and (max-width: 415px){
 
   .big {
