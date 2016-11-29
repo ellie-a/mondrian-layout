@@ -1,0 +1,41 @@
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+.
+.columns {
+  min-height: 100px;
+}
+.big {
+  background-color: lightblue;
+  height: 40vh;
+}
+
+.small1 {
+  background-color: pink;
+  height: 20vh;
+}
+.small2 {
+  background-color: red;
+  height: 20vh;
+}
+
+
+@media only screen and (max-width: 415px){
+
+  .big {
+    background-color: lightblue;
+    height: 40vh;
+    margin-bottom: 10%;
+  }
+
+  .small1 {
+    background-color: pink;
+    height: 20vh;
+    margin-bottom: 10%;
+  }
+  .small2 {
+    background-color: red;
+    height: 20vh;
+  }
+}
