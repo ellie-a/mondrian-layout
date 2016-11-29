@@ -3,32 +3,36 @@
   border:1px dashed #000;
 }
 
-.columns {
-  min-height: 100px;
-}
-.big {
-  background-color: lightblue;
-  height: 40vh;
-}
-
-.small1 {
-  background-color: pink;
-  height: 20vh;
-}
-.small2 {
-  background-color: red;
-  height: 20vh;
-}
+/*@media only screen and (min-width: 801px) {
+  .big {
+    background-color: lightblue;
+    float: left;
+    width: 70vw;
+  }
 
 
 
-@media only screen and (min-width: 416px){
+  .small1 {
+    background-color: pink;
+    float: left;
+    width: 10vw;
+  }
+  .small2 {
+    background-color: red;
+    float: left;
+    width: 10vw;
+
+}*/
+
+
+@media only screen and (min-width: 416px) and (max-width: 800px){
 
   .big {
     background-color: lightblue;
     height: 50vh;
     margin-bottom: 5vh;
   }
+
 
   .small1 {
     background-color: pink;
@@ -42,7 +46,6 @@
     height: 50vh;
     float: right;
     width: 45vw;
-
   }
 
 }
